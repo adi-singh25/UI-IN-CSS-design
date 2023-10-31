@@ -1,0 +1,333 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Nimbus Sans L";
+}
+
+html,body{
+    width:100%;
+    height:100%;
+}
+#main{
+    width:100%;
+}
+
+#nav{
+    position:relative;
+    background-color:none;
+    display:flex;
+    padding:3vw 10vw;
+    justify-content:space-between;
+    background-color:antiquewhite;
+}
+
+#nleft{
+    display:flex;
+    gap:30px;
+}
+#nav a{
+    display:inline-block;
+    font-weight:800;
+    font-size: 12px;;
+    text-decoration: none;
+    color:#000;
+    font-size: 12px;
+}
+
+
+
+ #nav #centeratag{ 
+    font-size:14px;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+
+
+
+}
+
+ #hero{ 
+   display:flex;
+   width: 100%;
+   height:100%; 
+   margin-top: 15vw ;
+   padding:0vw 10vw;
+   justify-content: space-between;
+   align-items:center;
+}
+#sustain{
+    width:10vw;
+
+}
+#sustain p{
+    text-transform: capitalize;
+    font-weight:800;
+    opacity: .5;
+    font-size:14px;
+    margin:10px 0;
+
+}
+
+#sustain #susimagewrapper{
+    overflow: hidden;
+    position:relative;
+    width:100%;
+    height:15vw;
+    /* background-color: red; */
+
+}
+#susimagewrapper  img{
+    
+    
+    width:100%;
+    height:100%;
+    object-fit: cover;
+
+}
+
+#ephemeral{
+    position:relative;
+    width: 30vw;
+   min-height:42vw;
+}
+#imgntext{
+    width:fit-content;
+    height:fit-content;
+} 
+#ephemeral img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#ephemeral #heading{
+    top:-28%;
+    left:-20%;
+    position:absolute;
+}
+#ephemeral h1{
+    letter-spacing: -.4vw;
+    font-size:6vw;
+    font-weight:400;
+    line-height: 1;
+}
+#ephemeral p{
+    font-size:1.3vw;
+    letter-spacing:-.07vw;
+    line-height:1.2;
+    width:40%;
+    
+
+
+}
+
+#visit{
+    display:flex;
+    gap:10px;
+    align-items:center;
+}
+
+#circlev{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:3vw;
+    height:3vw;
+    /* background-color:red; */
+    border-radius:50%;
+    border:1px solid #5e5e5e;
+
+
+}
+
+#circlev i{
+    color: #5e5e5e;
+}
+
+#visit h3{
+    color:#5e5e5e;
+    font-weight: 400;
+
+}
+
+#motive{
+    margin-top:7vw;
+    display:flex;
+    justify-content:space-between;
+    padding:3vw 10vw;
+}
+#motive p{
+    line-height: 1.7;
+    letter-spacing: -.12vw;
+    position: relative;
+    width: 85%;
+    right:0;
+    text-align: right;
+    font-size: 2vw;
+
+}
+#motive span{
+    display:inline-block;
+    border-radius:100px;
+    /* background-color:red; */
+    margin:0 13px;
+    margin-bottom:-12.5px;
+
+}
+#onespan{
+
+    width: 80px;
+    height:50px;
+    background-image: url(./images/images/bluegirl.jpg);
+    background-size:cover;
+    background-position:0% 60%;
+}
+
+#twospan{
+    width:130px;
+    height:50px;
+    background-image: url(./images/images/shaljam.jpg);
+    background-size:cover;
+    background-position:0% 48%;
+
+}
+#threespan{
+    width:80px;
+    height:50px;
+    background-image: url(./images/images/grass.jpg);
+    background-size:cover;
+    background-position:0% 48%;
+
+}
+
+#pictures{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 8vw;
+    padding:3vw;
+    padding-left:14vw;
+    padding-right:12vw;
+
+}
+
+#firstpic{
+    width:17vw;
+}
+#firstpic #picimg{
+    width: 100%;
+    height:24vw;
+    margin-bottom:1vw;
+
+}
+#picimg img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+#firstpic #secpic h1{
+    letter-spacing:-.1vw;
+    font-weight: 100;
+    font-size:2vw;
+}
+#firstpic #secpic p{
+    opacity:.8;
+    font-size: 14px;
+    line-height: 1;
+    margin-top:10px;
+    letter-spacing:-.07vw;
+}
+#secpic #picimg{
+    width: 100%;
+    height:32vw;
+    margin-bottom:1vw;
+}
+
+#secpic p{
+    text-align: right;
+    width:30vw;
+
+}
+#banner{
+    display:flex;
+    align-items: center;
+    width:100%;
+    margin-top:8vw;
+
+}
+#bimg{
+    width:65%;
+    height:60vh;
+    /* background-color:red; */
+}
+
+#bimg img{
+    width:100%;
+    height: 100%;
+    object-position:0% 70%;
+    object-fit:cover;
+}
+#btext{
+    width:35%;
+    padding:0 3vw;
+}
+
+#btext h1{
+    font-size:2.8vw;
+    font-weight: 400;
+    letter-spacing: -.15vw;
+    line-height:1;
+}
+#btext p{
+    margin-top:20px;
+    width:60%;
+    font: size 1vw;
+}
+#future{
+    overflow:hidden;
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    width:100%;
+    height:100vh;
+    background-color: #fff;
+
+}
+
+#future video{
+    opacity: 1;
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50% ,-50%);
+    width:100%;
+
+}
+#ftext{
+    padding:1vw 3vw;
+    background-color:#fff;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    position:relative;
+    z-index: 9999;
+}
+
+#ftext button{
+    
+    padding:.8vw 1.7vw;
+    
+    font-size:.6vw;
+    text-transform:capitalize;
+    margin-top:10px;
+    background-color:#fff;
+    border:1px solid #c6c6c6;
+    color: #6f6f6f;
+    
+    font-weight:700;
+    border-radius:100px;
+    
+
+}
